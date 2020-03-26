@@ -56,11 +56,39 @@ body {
 .save-button {
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 165px;
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
+.update-button {
+  position: absolute;
+  top: 25px;
+  right: 85px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.update-complete {
+  position: absolute;
+  top: 25px;
+  right: 85px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.delete-button {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
 .save-button:hover {
   background-color: green;
   color: white;
