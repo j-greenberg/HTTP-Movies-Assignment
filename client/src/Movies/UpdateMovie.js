@@ -21,7 +21,6 @@ function UpdateMovie (props) {
     }
   }, [props.movies, params.id])
 
-
     function handleChange(event){
         setMovie({...movie, [event.target.name]: event.target.value})
         console.log(movie);
